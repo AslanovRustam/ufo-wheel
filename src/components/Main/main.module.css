@@ -1,0 +1,20 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ufo {
+  position: absolute;
+  width: 17em;
+}
+.person {
+  width: 50em;
+  margin-top: -5.5em;
+  margin-left: 5.5em;
+}
+@media (orientation: portrait) {
+  .container {
+    flex-direction: column;
+  }
+}

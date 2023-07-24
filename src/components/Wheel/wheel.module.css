@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40.625em;
+  height: 40.625em;
+  text-align: center;
+}
+.containerWheel {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.wheel {
+  width: 40.625em;
+}
+/* .arrow,
+.btnSpin {
+  position: absolute;
+}
+.arrow {
+  top: -5em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.btnSpin {
+  left: 35%;
+  bottom: 54%;
+} */
+.arrow {
+  position: absolute;
+  top: -5.4em;
+  left: 50%;
+  transform: translate(-50%);
+  width: 29.125em;
+  /* z-index: 2; */
+}
+.btnSpin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 12.125em;
+  /* z-index: 2; */
+  transition: filter 0.2s ease-in-out;
+  will-change: filter;
+  cursor: pointer;
+}
+.containerBtn {
+  text-align: center;
+}
+.btn {
+  width: 29em;
+}
+@media (orientation: portrait) {
+  .containerWheel {
+    top: 5em;
+  }
+
+  .containerBtn {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
