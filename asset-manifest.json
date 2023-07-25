@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ufo-wheel/static/css/main.a990f480.css",
+    "main.js": "/ufo-wheel/static/js/main.6a211cc7.js",
+    "static/media/bg.png": "/ufo-wheel/static/media/bg.5c74ec1a252ee1b8e1eb.png",
+    "static/media/win.png": "/ufo-wheel/static/media/win.823af0b3c06913cbf73e.png",
+    "static/media/man.png": "/ufo-wheel/static/media/man.c8bd74ddeb2d6ebeac15.png",
+    "static/media/wheel.png": "/ufo-wheel/static/media/wheel.4cbc39cf9db68f50a49c.png",
+    "static/media/loose.png": "/ufo-wheel/static/media/loose.73e0f1c9eb021609e1f9.png",
+    "static/media/btn1.png": "/ufo-wheel/static/media/btn1.e623b7aa140c05f0dd37.png",
+    "static/media/arrow.png": "/ufo-wheel/static/media/arrow.381587e1c07533ba4f8b.png",
+    "static/media/ufo.png": "/ufo-wheel/static/media/ufo.a9122f400ba2b29d666f.png",
+    "static/media/spin.png": "/ufo-wheel/static/media/spin.79ecca4db0789d87baa0.png",
+    "index.html": "/ufo-wheel/index.html",
+    "main.a990f480.css.map": "/ufo-wheel/static/css/main.a990f480.css.map",
+    "main.6a211cc7.js.map": "/ufo-wheel/static/js/main.6a211cc7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a990f480.css",
+    "static/js/main.6a211cc7.js"
+  ]
+}
