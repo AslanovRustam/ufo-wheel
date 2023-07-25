@@ -19,6 +19,7 @@ code {
 html {
   box-sizing: border-box;
   font-size: 0.833vw;
+  /* overflow: hidden; */
 }
 img {
   max-width: 100%;

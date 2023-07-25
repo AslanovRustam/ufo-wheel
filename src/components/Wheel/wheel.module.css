@@ -13,27 +13,24 @@
 }
 .wheel {
   width: 40.625em;
+  animation: wheelWait 2s ease-in-out alternate infinite;
 }
-/* .arrow,
-.btnSpin {
-  position: absolute;
+.wheel_1_spin {
+  composes: wheel;
+  animation: 4s animTurnOne ease-out forwards;
 }
-.arrow {
-  top: -5em;
-  left: 50%;
-  transform: translateX(-50%);
+.wheel_2_spin {
+  composes: wheel;
+  animation: 6s animTurnTwo ease-out forwards;
 }
-.btnSpin {
-  left: 35%;
-  bottom: 54%;
-} */
+
 .arrow {
   position: absolute;
   top: -5.4em;
   left: 50%;
   transform: translate(-50%);
   width: 29.125em;
-  /* z-index: 2; */
+  z-index: 2;
 }
 .btnSpin {
   position: absolute;
@@ -41,17 +38,52 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 12.125em;
-  /* z-index: 2; */
   transition: filter 0.2s ease-in-out;
   will-change: filter;
   cursor: pointer;
 }
 .containerBtn {
   text-align: center;
+  z-index: 2;
+  margin-top: -2em;
+  cursor: pointer;
+  animation: 1s animButton infinite alternate-reverse ease-in-out;
 }
 .btn {
   width: 29em;
 }
+
+@keyframes wheelWait {
+  from {
+    rotate: -10deg;
+  }
+  to {
+    rotate: 10deg;
+  }
+}
+
+@keyframes animTurnOne {
+  100% {
+    transform: rotate(993deg);
+  }
+}
+@keyframes animTurnTwo {
+  100% {
+    transform: rotate(3turn);
+  }
+}
+
+@keyframes animButton {
+  0% {
+    scale: 0.96;
+    filter: drop-shadow(0 0 0.15rem #edeff2) brightness(1);
+  }
+  100% {
+    scale: 1;
+    filter: drop-shadow(0 0 0.7rem #e7eaef) brightness(1.1);
+  }
+}
+
 @media (orientation: portrait) {
   .containerWheel {
     top: 5em;

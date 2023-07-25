@@ -7,14 +7,21 @@
 .ufo {
   position: absolute;
   width: 17em;
+  z-index: -1;
 }
 .person {
   width: 50em;
   margin-top: -5.5em;
   margin-left: 5.5em;
+  z-index: 1;
 }
 @media (orientation: portrait) {
   .container {
     flex-direction: column;
+  }
+  .ufo {
+    top: -6em;
+    left: 0;
+    rotate: -10deg;
   }
 }
