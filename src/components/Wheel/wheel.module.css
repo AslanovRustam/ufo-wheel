@@ -49,6 +49,10 @@
   cursor: pointer;
   animation: 1s animButton infinite alternate-reverse ease-in-out;
 }
+.containerBtn:hover,
+.containerBtn:focus {
+  animation-play-state: paused;
+}
 .btn {
   width: 29em;
 }

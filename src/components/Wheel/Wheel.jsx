@@ -21,7 +21,6 @@ export default function Wheel() {
   function togleModal() {
     return setShowModal(!showModal);
   }
-  console.log(count);
 
   return (
     <>
