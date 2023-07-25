@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ufo-wheel/static/css/main.a990f480.css",
+    "main.css": "/ufo-wheel/static/css/main.e4c23f76.css",
     "main.js": "/ufo-wheel/static/js/main.6a211cc7.js",
     "static/media/bg.png": "/ufo-wheel/static/media/bg.5c74ec1a252ee1b8e1eb.png",
     "static/media/win.png": "/ufo-wheel/static/media/win.823af0b3c06913cbf73e.png",
@@ -12,11 +12,11 @@
     "static/media/ufo.png": "/ufo-wheel/static/media/ufo.a9122f400ba2b29d666f.png",
     "static/media/spin.png": "/ufo-wheel/static/media/spin.79ecca4db0789d87baa0.png",
     "index.html": "/ufo-wheel/index.html",
-    "main.a990f480.css.map": "/ufo-wheel/static/css/main.a990f480.css.map",
+    "main.e4c23f76.css.map": "/ufo-wheel/static/css/main.e4c23f76.css.map",
     "main.6a211cc7.js.map": "/ufo-wheel/static/js/main.6a211cc7.js.map"
   },
   "entrypoints": [
-    "static/css/main.a990f480.css",
+    "static/css/main.e4c23f76.css",
     "static/js/main.6a211cc7.js"
   ]
 }
